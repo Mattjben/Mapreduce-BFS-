@@ -36,7 +36,7 @@ Input files: graph.txt(mapper input), distance.txt
 output_filenames: mapreduce-outputX , X being iteration number  
 e.g Final output = mapreduce-outputXmax , Xmax being the final iteration 
 
-Source Code: all source code should be located in s3923076_BDP_A2 file (no sub directories) 
+Source Code:  (no sub directories) 
  
     mapper.py
     reducer.py 
