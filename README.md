@@ -3,6 +3,17 @@ Contained is an advanced MapReduce program with python to implement BFS(Parallel
 from the source node. The code uses a graph.txt and distance.txt input files which inlcude an adjacency matrix of a graph and the distances of 
 every node from the source (starts off as 9999 for every node but the source.)
 
+ 
+
+Files:  
+- hadoop-streaming-3.1.4.jar: hadoop streaming file   
+- run.sh: run file needed to implement the code and specify inputs and outputs  
+- mapper.py: mapper code 
+- reducer.py: reducer code
+- reader.py: python code used to check termination condition of while loop in run.sh
+
+
+
 ### *Example graph.txt*:   
 1: 2 3 4  
 2: 5 6   
